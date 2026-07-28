@@ -47,19 +47,6 @@ portfolio-dev/
    - Espaçamentos
    - Breakpoints responsivos
 
-## 🎨 Cores
-
-O portfólio usa um sistema de variáveis CSS para facilitar customização:
-
-```css
---primary: #6366f1         /* Azul principal */
---secondary: #ec4899       /* Rosa secundária */
---bg: #0f172a              /* Fundo escuro */
---text: #f1f5f9            /* Texto claro */
-```
-
-Edite estas cores em `styles.css` para mudar toda a aparência.
-
 ## 📱 Responsividade
 
 O portfólio funciona perfeitamente em:
@@ -89,71 +76,7 @@ Grid de categorias de skills:
 ### Contato
 Seção com informações de contato e formulário.
 
-## 🚀 Deploy
-
-### GitHub Pages (gratuito)
-1. Crie um repositório chamado `seu-usuario.github.io`
-2. Coloque os arquivos lá
-3. Seu portfólio estará em `https://seu-usuario.github.io`
-
-### Vercel
-1. Conecte seu repositório GitHub
-2. Deploy automático em `https://seu-nome.vercel.app`
-
-### Netlify
-1. Faça drag-and-drop da pasta aqui
-2. Seu portfólio estará online em segundos
-
-## 🔧 Customizações Comuns
-
-### Trocar cor principal
-No `styles.css`, altere `--primary`:
-```css
-:root {
-  --primary: #sua-cor-aqui; /* Mude para sua cor favorita */
-}
-```
-
-### Adicionar novo projeto
-No `index.html`, dentro de `.projects-grid`, copie um `.project-card` e edite.
-
-### Mudar fonte
-Em `styles.css`, altere a `font-family`:
-```css
-body {
-  font-family: 'Sua fonte', sans-serif;
-}
-```
-
-### Adicionar redes sociais
-No `footer`, adicione mais links em `.social-links`.
-
-## 📈 Melhorias Futuras
-
-- [ ] Backend com Node.js para enviar emails
-- [ ] Integração com GitHub API para listar repos automaticamente
-- [ ] Blog section
-- [ ] Dark/Light mode toggle
-- [ ] Multilíngue (PT, EN, ES)
-- [ ] Analytics
-
-## 💡 Tips
-
-1. **Mantenha atualizado** — revise mensalmente
-2. **Adicione screenshots** — inclua prints dos projetos
-3. **Links funcionais** — certifique-se que todos os links funcionam
-4. **SEO** — considere adicionar meta tags no `<head>`
-5. **Performance** — optimize imagens
-6. **Mobile first** — teste sempre no celular primeiro
-
-## 📝 Licença
-
-MIT — sinta-se livre para usar, modificar e compartilhar!
-
 ## 👨‍💻 Autor
 
 Desenvolvido com ❤️ por um desenvolvedor full stack em evolução.
 
----
-
-**Dica:** Compartilhe atualizações no LinkedIn quando fizer mudanças importantes! 🚀
